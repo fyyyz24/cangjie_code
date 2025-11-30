@@ -3,16 +3,36 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+build/
+target/
+out/
 
-# Other files and folders
+# Cangjie specific
+*.cjo
+*.cjpm.lock
+.cjpm/
+
+# IDE and Editor files
 .settings/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
 
 # Executables
 *.swf
 *.air
 *.ipa
 *.apk
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Logs
+*.log
