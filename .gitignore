@@ -9,7 +9,6 @@ out/
 
 # Cangjie specific
 *.cjo
-*.cjpm.lock
 .cjpm/
 
 # IDE and Editor files
